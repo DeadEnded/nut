@@ -200,6 +200,8 @@ https://github.com/networkupstools/nut/milestone/12
      if too few data points were seen. [#3082, #3095]
    * `openups-hid` had `nobattery` definition inverted, causing alarms -- now
      fixed to use the same mapping helper as other subdrivers. [issue #3246]
+   * add new goldenmate-hid subdriver, tested with Goldenmate UPS1000VAPro
+     [PR #TBD, issue #3015]
 
  - `upsd` data server updates:
    * Sometimes "Data for UPS [X] is stale" and "UPS [X] data is no longer

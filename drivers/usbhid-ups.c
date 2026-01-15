@@ -58,6 +58,7 @@
 #	include "delta_ups-hid.h"
 #	include "ecoflow-hid.h"
 #	include "ever-hid.h"
+#	include "goldenmate-hid.h"
 #	include "idowell-hid.h"
 #	include "legrand-hid.h"
 #	include "liebert-hid.h"
@@ -83,6 +84,7 @@ static subdriver_t *subdriver_list[] = {
 	&delta_ups_subdriver,
 	&ecoflow_subdriver,
 	&ever_subdriver,
+	&goldenmate_subdriver,
 	&idowell_subdriver,
 	&legrand_subdriver,
 	&liebert_subdriver,
